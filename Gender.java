@@ -6,7 +6,7 @@ void main() {
     String gender = IO.readln("Enter Your Gender[M/F]");
     char gen = gender.charAt(0);
     if (gen == 'M'){
-        IO.print("Your Gender is :" + gen + "Welcome to Sir");
+        IO.println("Your Gender is :" + gen + "Welcome to Sir");
     }else
-        IO.print("Your Gender is :"+ gen + "Welcome to Madam");
+        IO.println("Your Gender is :"+ gen + "Welcome to Madam");
 }

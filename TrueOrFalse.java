@@ -4,6 +4,6 @@
 
 
 void main() {
-   boolean bal = Boolean.getBoolean(IO.readln("Enter 'true OR false'")) ;
+   boolean bal = Boolean.parseBoolean(IO.readln("Enter 'true OR false'")) ;
    IO.print("You entered "+bal);
 }
