@@ -65,15 +65,15 @@ void main() {
         // ch =(char) num;
         // IO.print(ch);
 
-        // byte b = 42;
-        // char c = 'a';
-        // short s = 1024;
-        // int i = 50000;
-        // IO.println(i);
-        // float f = 5.67f;
-        // double d = .1234;
-        // double result = (f * b) + (i / c) - (d * s);
-        // IO.println("result = " + result);
+        byte b = 42;
+        char c = 'a';
+        short s = 1024;
+        int i = 50000;
+        IO.println(i);
+        float f = 5.67f;
+        double d = .1234;
+        double result = (f * b) + (i / c) - (d * s);
+        IO.println("result = " + result);
 
 
         // int x = 10;
