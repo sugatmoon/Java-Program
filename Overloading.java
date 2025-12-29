@@ -224,3 +224,9 @@
 //    IO.println("double");
 //    return 0;
 // }
+
+void main() {
+    long x = 65;
+    float b = x;
+    System.out.println(b);
+}
