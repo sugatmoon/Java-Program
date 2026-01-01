@@ -33,22 +33,68 @@
 // }
 
 
-void main() {
-int side = Integer.parseInt(IO.readln());
-int length = Integer.parseInt(IO.readln());
-int width = Integer.parseInt(IO.readln());
-double radius = Double.parseDouble(IO.readln());
+// void main() {
+// int side = Integer.parseInt(IO.readln());
+// int length = Integer.parseInt(IO.readln());
+// int width = Integer.parseInt(IO.readln());
+// double radius = Double.parseDouble(IO.readln());
 
-IO.println("Area of the Square : "+calculateArea(side));
-IO.println("Area of the Reactangle : "+calculateArea(length,width));
-IO.println("Area of the Circle : "+calculateArea(radius));
+// IO.println("Area of the Square : "+calculateArea(side));
+// IO.println("Area of the Reactangle : "+calculateArea(length,width));
+// IO.println("Area of the Circle : "+calculateArea(radius));
+// }
+// public int calculateArea(int side) {
+//     return side * side;
+// }
+// public int calculateArea(int length , int width) {
+//     return length * width;
+// }
+// public double calculateArea (double radius) {
+//     return radius * 3.14;
+// }
+
+
+// void main() {
+
+// String name = IO.readln();
+// double marks[] = new double[10];
+// int noOfSub = Integer.parseInt(IO.readln());
+
+// for (int i = 0; i < noOfSub; i++){
+//     marks[i] = Integer.parseInt(IO.readln());
+// }
+//  caluculateResult(name,noOfSub,marks);   
+// }
+// public void caluculateResult( String name,int noOfSub, double ...marks) {
+//     double totalMarks =0;
+// for (double mark : marks){
+//     totalMarks = totalMarks + mark;
+// }
+// IO.println("Student Name : "+ name);
+// IO.println("Total Marks  : "+ totalMarks);
+// IO.println("Average Marks: " + totalMarks / noOfSub);
+// }
+
+
+
+
+void main() {
+
+    String name = IO.readln();
+    int noOfItem = Integer.parseInt(IO.readln());
+    double prices[] = new double[10];
+    
+    for (int i = 0 ; i < noOfItem;i++) {
+        prices[i] = Double.parseDouble(IO.readln());
+    }
+
+    processPayment(name ,prices);
 }
-public int calculateArea(int side) {
-    return side * side;
-}
-public int calculateArea(int length , int width) {
-    return length * width;
-}
-public double calculateArea (double radius) {
-    return radius * 3.14;
+public void processPayment(String name,double ...prices){
+    double totalBill = 0;
+    for (double price : prices){
+        totalBill = totalBill + price;
+    }
+    IO.println("Customer Name :"+ name);
+    IO.println("Total Bill    :"+ totalBill);
 }
