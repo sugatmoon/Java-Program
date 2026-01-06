@@ -78,23 +78,278 @@
 
 
 
-void main() {
+// void main() {
 
-    String name = IO.readln();
-    int noOfItem = Integer.parseInt(IO.readln());
-    double prices[] = new double[10];
+//     String name = IO.readln();
+//     int noOfItem = Integer.parseInt(IO.readln());
+//     double prices[] = new double[10];
     
-    for (int i = 0 ; i < noOfItem;i++) {
-        prices[i] = Double.parseDouble(IO.readln());
-    }
+//     for (int i = 0 ; i < noOfItem;i++) {
+//         prices[i] = Double.parseDouble(IO.readln());
+//     }
 
-    processPayment(name ,prices);
-}
-public void processPayment(String name,double ...prices){
-    double totalBill = 0;
-    for (double price : prices){
-        totalBill = totalBill + price;
+//     processPayment(name ,prices);
+// }
+// public void processPayment(String name,double ...prices){
+//     double totalBill = 0;
+//     for (double price : prices){
+//         totalBill = totalBill + price;
+//     }
+//     IO.println("Customer Name :"+ name);
+//     IO.println("Total Bill    :"+ totalBill);
+// }
+
+
+    // void show(int a) { IO.println("int"); }
+    // void show(double a) { IO.println("double"); }
+
+    // void main() {
+    //     Test t = new Test();
+    //     t.show(10);
+    // }
+
+//     class Test{
+// static void fun(int... x) {
+//     IO.println(x.length);
+// }
+
+//  void main() {
+//     fun();
+// }
+// }
+
+//    void main() {
+// int[] a = {2, 4, 6};
+// for(int i = 0; i < a.length; i++) {
+//     a[i] += 1;
+// }
+// for(int x : a) {
+//     IO.print(x + " ");
+// }
+// }
+
+// void main() {
+// int[] arr = {1, 2, 3};
+// for(int x : arr) {
+//     x = x * 2;
+// }
+// IO.print(arr[1]);
+// }
+
+
+// class Main {
+// //   void print(int... a) { }
+// // void print(int[] a) { }
+//    void main() {    
+//     test(5);
+//    }
+//    void test(final int x) {
+//     x = 10;
+// }
+// }
+
+
+//    void main() {
+// for(int i = 0; i < 5; i++, i++) {
+//     IO.print(i + " ");
+// }
+// }
+
+
+// class Test{
+// void display(Object o) {
+//     IO.println("Object");
+// }
+// void display(String s) {
+//     IO.println("String");
+// }
+
+// void main() {
+//     Test t = new Test();
+//     t.display(null);
+// }
+// }
+
+
+//     void main() {
+// int count = 0;
+// for(int i = 1; i <= 2; i++) {
+//     for(int j = 1; j <= 2; j++) {
+//         count++;
+//     }
+// }
+// IO.print(count);
+// }
+
+
+//     void main() {
+// int i = 1;
+// do {
+//     IO.print(i + " ");
+// } while(i-- > 1);
+
+// }
+
+// void main() 
+// { int i = 1;
+//      while(i <= 3); 
+//      { IO.print(i); i++; 
+
+//      } 
+//     } 
+
+
+// class Test 
+// { 
+//     void show(int a)
+//      { 
+//         IO.println("int");
+//       } 
+//       void show(double a) 
+//       { 
+//         IO.println("double"); 
+//       } 
+//       void main() { Test t = new Test();
+//          t.show(10); 
+//         } 
+// }
+
+
+// class F20 {
+//     void main() {
+//         for (int i = 1; i <= 3; i++) {
+//             for (int j = 1; j <= 3; j++) {
+//                 if (j == i)
+//                     break;
+//                 System.out.print(j);
+//             }
+//         }
+//     }
+// }
+
+
+  //  void main() {
+  //       for (int i = 1; i <= 2; i++) {
+  //           for (int j = 1; j <= i; j++) {
+  //               System.out.print(i);
+  //           }
+  //       }
+  //   }
+
+
+
+  //  void main() {
+  //       int i;
+  //       for (i = 0; i < 3; i++);
+  //       System.out.print(i);
+  //   }
+
+
+//   class F2 {
+//    void main() { 
+//         for (int i = 0; i < 3; i++);
+//         {
+//             System.out.print("Java");
+//         }
+//     }
+// }
+
+// class F19 {
+//     void main() {
+//         for (final int i = 0; i < 3; i++) {
+//             System.out.print(i);
+//         }
+//     }
+// }
+
+// class F3 {
+//     void main()  {
+//         for (int i = 0; i < 5; i++) {
+//             System.out.print(i);
+//             i++;
+//         }
+//     }
+// }
+
+
+  //  void main() {
+  //       boolean b = false;
+  //       for (; b; ) {
+  //           System.out.print("Java");
+  //       }
+  //   }
+
+
+//   class F5 {
+//     void main() {
+//         for (int i = 0; i < 3; i++) {}
+//         System.out.print(i);
+//     }
+// }
+
+
+// class F7 {
+//     void main() {
+//         for (int i = 1; i++ <= 3; ) {
+//             System.out.print(i);
+//         }
+//     }
+// }
+
+// class F12 {
+//    void main() {
+//         int i = 0;
+//         for (; ; ) {
+//             if (i++ == 2)
+//                 break;
+//             System.out.print(i);
+//         }
+//     }
+// }
+
+
+// class F1 {
+//      void main() {
+//         int i = 0;
+//         for (; i < 3; i++) {
+//             System.out.print(i);
+//         }
+//     }
+// }
+
+
+
+// class F14 {
+//     void main() {
+       
+//         for (int i = 1; i <= 3; i++) {
+//             for (int j = 1; j <= 3; j++) {
+//                 if (i == j)
+//                     break;
+//                 System.out.print(j);
+//             }
+//         }
+//     }
+// }
+
+
+
+class Test {
+    void main() {
+        boolean skip = false;
+
+        for (int i = 1; i <= 3; i++) {
+            skip = false;   
+            for (int j = 1; j <= 3; j++) {
+                if (j == 2) {
+                    skip = true;
+                    break; 
+                }
+                System.out.print(j);
+            }
+
+            if (skip)
+                continue;  
+        }
     }
-    IO.println("Customer Name :"+ name);
-    IO.println("Total Bill    :"+ totalBill);
 }
