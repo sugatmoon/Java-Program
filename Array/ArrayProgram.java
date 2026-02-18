@@ -7,12 +7,6 @@ public class ArrayProgram {
         InnerArrayProgram[] arr = new InnerArrayProgram[5];
 
         InnerArrayProgram a = new InnerArrayProgram();
-        
-
-
-
-
-
 
     }
 }
