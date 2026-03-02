@@ -17,13 +17,7 @@ class SwapByAddition {
         i = i - j;
         
         System.out.println("After swapping i: " + i);
-        System.out.println("After swapping j: " + j);
-
-
-
-
-
-
+        System.out.println("After swapping j: "+ j);
 
 
     }
